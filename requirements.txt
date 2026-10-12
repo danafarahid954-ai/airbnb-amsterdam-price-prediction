@@ -1,0 +1,15 @@
+# Tested with Python 3.13. Minimum versions below were the versions used for the verified run.
+numpy>=2.0
+pandas>=2.2
+scipy>=1.13
+scikit-learn>=1.5
+statsmodels>=0.14
+matplotlib>=3.8
+seaborn>=0.13
+pyarrow>=15.0
+xgboost>=2.0
+lightgbm>=4.3
+catboost>=1.2
+# Notebook runtime
+jupyter
+ipykernel

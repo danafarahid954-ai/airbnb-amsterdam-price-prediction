@@ -1,0 +1,23 @@
+# Raw data (download from Inside Airbnb, see README)
+data/*
+!data/.gitkeep
+# Generated artifacts (recreated by running the notebooks)
+processed/*
+!processed/.gitkeep
+results/all_results_partial.csv
+catboost_info/
+# Python / environments
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# Secrets
+.env
+*.key
